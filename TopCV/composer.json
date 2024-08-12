@@ -1,0 +1,20 @@
+{
+    "name": "kings/crawling",
+    "autoload": {
+        "psr-4": {
+            "Kings\\Crawling\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Đinh Lê Nhật Tiến",
+            "email": "tien.dln@tbd.edu.vn"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^2.1",
+        "fabpot/goutte": "^4.0",
+        "symfony/dom-crawler": "^6.0",
+        "guzzlehttp/guzzle": "^7.9"
+    }
+}
